@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:chocolate;
+}
+
+.drumkit {
+    text-align: center;
+}
+
+.heading {
+    margin-top: -400px;
+    font-size: 50px;
+    margin-bottom: 200px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drum-button {
+    margin: 0 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.drum-button img {
+    width: 200px;
+    height: 200px;
+}
+

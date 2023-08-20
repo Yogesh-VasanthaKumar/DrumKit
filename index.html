@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="drumkit">
+        <h1 class="heading">The Drum Kit</h1>
+        <div class="buttons">
+            <button class="drum-button" onclick="playSound('1')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Drumhead_Coated_on_Snare_Drum.png/600px-Drumhead_Coated_on_Snare_Drum.png" alt="Drum 1">
+            </button>
+            <button class="drum-button" onclick="playSound('2')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Drumhead_Coated_on_Tom_Drum_01.png/600px-Drumhead_Coated_on_Tom_Drum_01.png" alt="Drum 2">
+            </button>
+            <button class="drum-button" onclick="playSound('3')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Drumhead_Coated_on_Bass_Drum.png/600px-Drumhead_Coated_on_Bass_Drum.png" alt="Drum 3">
+            </button>
+            <button class="drum-button" onclick="playSound('4')">
+                <img src="https://www.thesoundlab.com.au/cdn/shop/products/StaggHandDrum.png?v=1655198999&width=713" alt="Drum 4">
+            </button>
+            <button class="drum-button" onclick="playSound('5')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Drumhead_Coated_on_Tom_Drum_01.png/600px-Drumhead_Coated_on_Tom_Drum_01.png" alt="Drum 5">
+            </button>
+            <audio id="1" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav"></audio>
+            <audio id="2" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"></audio>
+            <audio id="3" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav"></audio>
+            <audio id="4" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/ride.wav"></audio>
+            <audio id="5" src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-close.wav"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
